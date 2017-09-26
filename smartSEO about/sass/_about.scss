@@ -1,0 +1,44 @@
+
+.page-heading{
+    .content{
+        border:1px solid #25d25e;
+     .breadcrumb-item{
+         display: inline-block;
+    position: relative;
+         &::before{
+    content: "|";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+         a{
+         color:black;
+         }
+     }
+    }
+    }
+.promo-section{
+    .promo-item{  
+     position: relative;
+    display: block;
+    padding-left: 80px;}
+i{
+        border: 1px solid #ddd;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    color: #25d25e;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    text-align: center;
+    line-height: 58px;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+          color: white;
+background-color: #25d25e;
+    }
+
+}
+}
